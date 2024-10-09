@@ -12,7 +12,7 @@ SentiAPP analyzes Reddit posts from any subreddit specified by the user, perform
 
 ## Features 
 - Fetches posts from Reddit using PRAW.
-- Classifies the emotional sentiment of post titles (joy, anger, sadness).
+- Classifies the emotional sentiment of post titles (joy, anger, sadness, surprise, fear, love).
 - Displays the overall sentiment and sentiment trends over time using Plotly and Altair.
 - Interactive Streamlit interface for user input and visualization.
 
