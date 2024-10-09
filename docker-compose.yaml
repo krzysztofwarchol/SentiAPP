@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: app
+    environment:
+      - REDDIT_ID=${REDDIT_ID}
+      - REDDIT_SECRET=${REDDIT_SECRET}
+      - REDDIT_USERNAME=${REDDIT_USERNAME}
+      - REDDIT_PASSWORD=${REDDIT_PASSWORD}
+    ports:
+      - "8501:8501"
