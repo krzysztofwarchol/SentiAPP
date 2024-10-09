@@ -20,8 +20,8 @@ SentiAPP analyzes Reddit posts from any subreddit specified by the user, perform
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo
+   git clone https://github.com/SentiAPP.git
+   cd SentiAPP.git
    ```
 2. Create and activate ``venv``.
 3. Install the required dependencies:
